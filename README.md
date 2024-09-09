@@ -1,0 +1,22 @@
+# <font color='pink'><b>GDP & Life Expectancy Analysis</b></font>
+
+Whether there is a relationship between the Gross Domestic Product (GDP) per capita and the life expectancy of citizens has been the subject of debate for numerous people, including policymakers, researchers, and even philosophers, for years. Some people may concede that economic growth directly affects human well-being due to the healthcare services provided, but it is difficult to conclude whether a higher GDP per capita can lead to an overall increase in life expectancy. Recognizing the intriguing nature and practical application of this issue, we aim to settle it by conducting this research, as we will answer the following central question: 
+##### <b>Does GDP per capita have a relationship with the life expectancy of countries in the world?</b>
+
+To resolve this question, we make use of 2 datasets obtained from Wikipedia and The World Bank. The Life Expectancy dataset from Wikipedia provides data regarding the average life expectancy at birth of roughly 248 countries in the world in 2021. Meanwhile, the dataset from The World Bank shows the GDP per capita if countries in 2021. Our main agenda is to compare the difference between the group with high life expectancy and one with low life expectancy, thereby discovering whether there is any connection between GDP per capita and life expectancy, which is the answer to our central question.
+
+#### <b>Reasons for Eligibility</b>:
+
+- The life expectancy dataset is taken from Wikipedia. According to the Copyrights section in Terms of Use (https://en.wikipedia.org/wiki/Wikipedia:Copyrights#Guidelines_for_images_and_other_media_files), texts on Wikipedia are co-licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA) and the GNU Free Documentation License (GFDL). These licenses allow users to have free access to information stored in Wikipedia, and in turn, they can copy, modify, and redistribute it.
+
+- As regards the GDP per capita dataset, we have inspected the Data Access and Licensing page of The World Bank (https://datacatalog.worldbank.org/public-licenses#cc-by) and learned that the database provided on this website earns the Creative Commons Attribution 4.0 (CC-BY 4.0) International license. By integrating this license, the provider enables web users to “copy, modify and distribute data in any format for any purpose, including commercial use.” (The World Bank) To increase the certainty, we also referred to the overall Terms of Use (https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets), which claims to allow users to “extract, download, and make copies of the data contained in the Datasets.” In other words, we can use the data in this course, which is for educational purposes. 
+
+- The csv file named `countries.csv` is taken from the website of `denison.edu` (http://datasystems.denison.edu/data.html) under the `Tabular Data` section. This file is eligible to use because it originates from an education website owned by Denison University. Indeed, the location of the URL is `denison.edu`. As we are using this file for pure educational purposes in a project assigned by a Denison professor during school year, we have the ability to use it and modify it within the scope of this project only.
+
+In this project, we will use web scraping to extract one table of data before converting it to `pandas` DataFrame and acquire data from the remaining dataset and convert to a `pandas` DataFrame. Then, we will execute advanced SQL statements to acquire necessary data for the analysis. The answer to our central question <b>Does GDP per capita have a relationship with the life expectancy of countries in the world?</b> is as followed:
+- The rise of average life expectancy quite precisely reflects the level of economic development of 7 fields of regions.
+- The average life expectancy of countries with high GDP per capita is higher than that of countries with low GDP per capita.
+
+=> There is a high alignment betweeh the average life expectancy and the level of economic development (which is epitomized by GDP per capita). 
+
+=> The 2021 database helps reveal that <font color='gold'><b> The GDP per capita has a direct correlation with the life expectancy of world countries</b></font>.
